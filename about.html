@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snp Main</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body class=" bg-black text-white">
+    <header class="w-full bg-black sticky top-0 z-10 shadow-[0_0.5px_0_#D1D5DB]">
+        <nav class="lg:max-w-[85%]   mx-auto flex justify-between items-center p-3">
+            <svg id="btn" class="cursor-pointer lg:hidden flex mx-5" width="40" height="40" viewBox="0 0 24 24"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="6" width="18" height="2" fill="white" />
+                <rect x="3" y="11" width="18" height="2" fill="white" />
+                <rect x="3" y="16" width="18" height="2" fill="white" />
+            </svg>
+
+            <div class="logo">
+                <img class="w-[9rem] " src="assets/logo.webp" alt="">
+            </div>
+            <div class="menu-icons">
+                <ul class="text-white flex items-center space-x-5 ">
+                    <li class="lg:flex hidden cursor-pointer "><a class="text-lg" href="index.html">Home</a></li>
+                    <li class="lg:flex hidden cursor-pointer "><a class="text-lg" href="about.html">About Us</a></li>
+                    <li class="lg:flex hidden cursor-pointer "><a class="text-lg" href="publish.html">Publications</a>
+                    </li>
+                    <li
+                        class="hidden lg:flex cursor-pointer bg-black text-white border-2 border-white px-3 py-2 rounded-3xl  ">
+                        Get a franchise</li>
+                    <li
+                        class="cursor-pointer lg:px-4 lg:py-3 px-2 py-2 md:text-[12px] rounded-3xl bg-red-600 flex items-center gap-2 ">
+                        Order Online <svg class="lg:flex md:flex hidden" width="25" height="25" viewBox="0 0 50 50"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                            <circle cx="25" cy="25" r="24" fill="white" stroke="black" stroke-width="2" />
+                            <path d="M20 15 L30 25 L20 35" stroke="black" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" fill="none" />
+                        </svg></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <ul id="menu-list" class="hidden p-3 space-y-3 max-w-[50%] bg-[rgb(15,15,15)] h-[87vh] fixed z-10 ">
+        <li class="px-2 cursor-pointer"><a href="index.html">Home</a></li>
+        <hr>
+        <li class="px-2 cursor-pointer"><a href="about.html"></a>About Us</li>
+        <hr>
+        <li class="px-2 cursor-pointer"><a href="publish.html">Publications</a></li>
+        <hr>
+        <li class="px-2 cursor-pointer">get a franchise</li>
+        <hr>
+    </ul>
+
+    <section class="w-full bg-black">
+        <div class="intro w-[85%] text-center bg-black mx-auto mt-10">
+            <h1 class="text-3xl font-serif font-bold">Introduction</h1>
+
+            <p class="mt-4">The Salt’n Pepper is Pakistan’s most recognized and distinguished hospitality brand with a
+                history of
+                market innovation and excellence in restaurants chain operation. The Salt’n Pepper Restaurants are
+                regarded and respected as the number one restaurant entity in Pakistan.</p>
+            <p class="mt-4">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service,
+                extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning
+                destinations in Lahore. From family occasions to business dinners and moments of the heart, Its a place
+                is where unforgettable memories are made.</p>
+            <p class="mt-4">The first Salt’n Pepper Restaurant on the Lahore Mall Road was established in 1983 by
+                hotelier/restaurant entrepreneur Mahmood Akbar, considered by many as the pioneer hotelier and
+                restaurateur in Pakistan.</p>
+            <p class="mt-4">Foodconsults (Pvt.) Limited the owing company of Salt’ n Pepper Restaurants, which has its
+                Headquarter in Lahore, prides itself on developing Pakistan’s first national chain of restaurants. For
+                over 3 decades, the group’s focus has been to provide their guests with an exceptional dining
+                experience. The group’s profile includes expertise in Pakistani and Continental cuisine, along with Fast
+                Food.</p>
+
+            <h1 class="text-3xl font-serif mt-16">Restuarent</h1>
+
+            <p class="mt-4">M/S. Foodconsults (Pvt.) Limited operates several different Salt’n Pepper Restaurants in
+                Lahore. Each offering a unique dining experience. The group’s chronology of success is as follows:-</p>
+
+        </div>
+    </section>
+
+    <section class="branches">
+        <div
+            class="city max-w-[90%] mx-auto flex flex-col md:flex-col lg:flex-row justify-between items-center mt-6 text-left sm:text-center lg:text-left">
+            <div
+                class="info flex flex-col justify-between lg:text-left md:text-center sm:text-center text-center gap-4 ">
+                <p class="font-light  text-3xl "><span class="font-bold font-serif">Salt'n Pepper </span>Restuarent</p>
+                <p class="mt-3">The Salt’n Pepper Restaurants at Mall and Liberty Market Lahore, are considered to be
+                    the first proper family style restaurants in the food industry of Pakistan. These restaurants pride
+                    themselves for being symbolized as an eatery with a customer loyalty spanning over three
+                    generations. As a restaurant model, these have inspired the set-up of numerous other restaurants
+                    across Pakistan.</p>
+
+            </div>
+            <img class="m-3  md:w-[60%] sm:w-[70%] lg:w-[48%] xl:w-[47%] " src="assets/img1.webp" alt="">
+        </div>
+        <div
+            class="city max-w-[90%] mx-auto flex flex-col-reverse md:flex-col-reverse lg:flex-row justify-between items-center mt-6 text-left sm:text-center lg:text-left">
+
+            <img class="m-3  md:w-[60%] sm:w-[70%] lg:w-[48%] xl:w-[47%] " src="assets/img2.webp" alt="">
+            <div
+                class="info flex flex-col justify-between lg:text-left md:text-center sm:text-center text-center gap-4 ">
+                <p class="font-light  text-3xl "><span class="font-bold font-serif">Salt'n Pepper </span>Restaurants
+                    (1992)</p>
+                <p class="mt-3">The Salt’n Pepper Village Restaurant in Lahore is considered to be the restaurant that
+                    revolutionized dining experiences in Pakistan. The Village offers classic and modern sub-continental
+                    dishes. The village restaurant created a new concept of “Live Buffet” where everything is cooked in
+                    front of you in a ‘bazaar’ like atmosphere. The Village is an acclaimed restaurant brand, credited
+                    with the promotion of the Pakistani cuisine and the revival of some old recipes. The Village Lahore
+                    has an seating capacity of over 300 guests. This restaurant has hosted countless lunches and dinners
+                    for local and foreign dignitaries and celebrities like the late Princess Diana, late prime minister
+                    of Pakistan Benazir Bhutto, ex-president of Pakistan Gen. (R) Pervez Musharraf and many more.</p>
+
+            </div>
+
+        </div>
+
+        <h1 class="font-light xl:text-4xl text-3xl lg:text-4xl text-center mt-16"><span
+                class="font-bold font-serif text-4xl">Salt'n Pepper
+            </span>is also started giving franchises of its restaurants</h1>
+
+        <div
+            class="city max-w-[90%] mx-auto flex flex-col md:flex-col lg:flex-row justify-between items-center mt-6 text-left sm:text-center lg:text-left">
+            <div
+                class="info flex flex-col justify-between lg:text-left md:text-center sm:text-center text-center gap-4 ">
+                <p class="font-light  text-3xl "><span class="font-bold font-serif">Salt'n Pepper </span>Islamabad</p>
+                <p class="mt-3">In February 2012, the first franchise of Salt’n Pepper restaurants was opened at the
+                    prime location of Blue Area, Islamabad. It was warmly welcomed by the residents of Islamabad as well
+                    as the neighboring towns.</p>
+
+            </div>
+            <img class="m-3  md:w-[60%] sm:w-[70%] lg:w-[48%] xl:w-[47%] " src="assets/isba.webp" alt="">
+        </div>
+        <div
+            class="city max-w-[90%] mx-auto flex flex-col-reverse md:flex-col-reverse lg:flex-row justify-between items-center mt-6 text-left sm:text-center lg:text-left">
+
+            <img class="m-3  md:w-[60%] sm:w-[70%] lg:w-[48%] xl:w-[47%] " src="assets/fa.webp" alt="">
+            <div
+                class="info flex flex-col justify-between lg:text-left md:text-center sm:text-center text-center gap-4 ">
+                <p class="font-light  text-3xl "><span class="font-bold font-serif">Salt'n Pepper </span>Faisalabad</p>
+                <p class="mt-3">Faisalabad city, also known as Manchester of Pakistan also has a franchise of Salt n
+                    Pepper Resturant since November 2016.</p>
+                <p class="mt-3">This franchise is in the posh and upcoming locality of Kohinoor city. It is a large
+                    multi storied
+                    restaurant.</p>
+
+            </div>
+
+
+        </div>
+        <div
+            class="city max-w-[90%] mx-auto flex flex-col md:flex-col lg:flex-row justify-between items-center mt-6 text-left sm:text-center lg:text-left">
+            <div
+                class="info flex flex-col justify-between lg:text-left md:text-center sm:text-center text-center gap-4 ">
+                <p class="font-light  text-3xl "><span class="font-bold font-serif">Salt'n Pepper </span>Bahawalpur</p>
+                <p class="mt-3">In the historic and swiftly developing city Bahawalpur restaurant is operational since
+                    January 2018.</p>
+                <p class="mt-3">This restaurant will have 150 plus seating capacity including Al fresco seating. The
+                    menu is the same as Lahore Salt’n Pepper restaurants.</p>
+
+            </div>
+            <img class="m-3  md:w-[60%] sm:w-[70%] lg:w-[48%] xl:w-[47%] " src="assets/bahalw.webp" alt="">
+        </div>
+
+
+
+
+    </section>
+
+
+    <section class="expres mt-16">
+        <p class="font-light text-center text-3xl "><span class="font-bold font-serif">Salt'n Pepper </span>Express</p>
+        <p class="text-center mt-10">Salt n Pepper – the food connoisseur every food lover cherishes. A food brand like
+            no other.</p>
+
+        <div
+            class="city max-w-[90%]  mx-auto flex flex-col-reverse md:flex-col-reverse lg:flex-row justify-between items-center xl:items-start lg:items-start md:items-center sm:items-center mt-6 text-left sm:text-center lg:text-left">
+
+            <img class="m-3  md:w-[80%] sm:w-[90%] lg:w-[48%] xl:w-[47%] w-[100%] " src="assets/exp.webp" alt="">
+            <div class="info flex flex-col  lg:text-left md:text-center sm:text-center text-center gap-4 ">
+
+                <p>Salt’n Pepper Restaurants were founded in an effort to capitalize on the golden opportunities created
+                    by the rapidly growing restaurant industry.</p>
+
+                <p class="">Via our franchise programme, we are focused on further expanding our restaurant network.</p>
+
+                <p class="">Via our franchise programme, we are focused on further expanding our restaurant
+                    networkSalt’n Pepper intends to give franchise rights to the interested investors to establish
+                    Salt’n Pepper Express Restaurants in different cities of Pakistan. The franchises shall be offered
+                    under the name of ‘Salt’n Pepper Express’ only.</p>
+
+                <p class="">With our vision to evolve with changing times, we are proud to offer a smart and practical
+                    concept as a great addition to the food chain dynamics today:</p>
+
+                <p class="">Our Express Business Model comprises of a smart but compact restaurant in terms of seating
+                    and kitchen. This condensed model will offer a menu with a selected number of our most favorite and
+                    popular dishes from our original menu. You may consider it as ‘Salt n Pepper – Mini’.</p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="location">
+        <h1 class="font-light xl:text-4xl text-3xl lg:text-4xl text-center mt-16"><span
+                class="font-bold font-serif text-4xl mx-4">Salt'n Pepper
+            </span>is also started giving franchises of its restaurants</h1>
+
+
+        <div class="cards max-w-[90%] mx-auto mt-10 mb-5 flex justify-evenly  flex-wrap">
+            <div
+                class="card w-[100%] xl:w-[30%] lg:w-[30%] md:w-[40%] sm:w-[40%] bg-[rgb(15,15,15)] py-4 px-8 rounded-lg m-3 ">
+                <img class="rounded-lg" src="assets/card1.webp" alt="">
+                <p class="text-center mt-2 text-white">Salt’ n Pepper Express Behria Town</p>
+                <p class="text-center mt-2 text-gray-500">Arwa Heights Building 19 Nishtar Block, Sector E, Bahria Town
+                    Lahore, Near Eiffel Tower</p>
+                <p class="text-center mt-4 text-gray-500">Ph: 042 111-100-678</p>
+            </div>
+            <div
+                class="card w-[100%] xl:w-[30%] lg:w-[30%] md:w-[40%] sm:w-[40%] bg-[rgb(15,15,15)] py-4 px-8 rounded-lg m-3 ">
+                <img class="rounded-lg" src="assets/cxp.webp" alt="">
+                <p class="text-center mt-2 text-white">Salt’ n Pepper Express Packages Mall</p>
+                <p class="text-center mt-2 text-gray-500">First Floor Packages Mall
+                    Lahore, Near Eiffel Tower</p>
+                <p class="text-center mt-4 text-gray-500">Ph: 0333-0310534</p>
+            </div>
+            <div
+                class="card w-[100%] xl:w-[30%] lg:w-[30%] md:w-[40%] sm:w-[40%] bg-[rgb(15,15,15)] py-4 px-8 rounded-lg m-3 ">
+                <img class="rounded-lg" src="assets/mall.webp" alt="">
+                <p class="text-center mt-2 text-white">Salt’ n Pepper Express Emporium Mall</p>
+                <p class="text-center mt-2 text-gray-500">2nd Floor, Food Court Emporium Mall</p>
+                <p class="text-center mt-4 text-gray-500">Ph: 0311-1100947</p>
+            </div>
+            <div
+                class="card w-[100%] xl:w-[30%] lg:w-[30%] md:w-[40%] sm:w-[40%] bg-[rgb(15,15,15)] py-4 px-8 rounded-lg m-3 ">
+                <img class="rounded-lg" src="assets/g.webp" alt="">
+                <p class="text-center mt-2 text-white">Salt’ n Pepper Express Gujranwala</p>
+                <p class="text-center mt-2 text-gray-500">Sixteenth Avenue Mall
+
+                </p>
+                <p class="text-center mt-4 text-gray-500"> Ph: 0300 6024000</p>
+            </div>
+            <div
+                class="card w-[100%] xl:w-[30%] lg:w-[30%] md:w-[40%] sm:w-[40%] bg-[rgb(15,15,15)] py-4 px-8 rounded-lg m-3 ">
+                <img class="rounded-lg" src="assets/s.webp" alt="">
+                <p class="text-center mt-2 text-white">Salt’ n Pepper Express Sargodha
+
+
+                </p>
+                <p class="text-center mt-2 text-gray-500"> Opposite Sargodha Arts Council Babar Road</p>
+                <p class="text-center mt-4 text-gray-500">Ph: (048) 3725500</p>
+            </div>
+            <div
+                class="card w-[100%] xl:w-[30%] lg:w-[30%] md:w-[40%] sm:w-[40%] bg-[rgb(15,15,15)] py-4 px-8 rounded-lg m-3 ">
+                <img class="rounded-lg" src="assets/faisal.webp" alt="">
+                <p class="text-center mt-2 text-white">Salt’ n Pepper Express Sargodha
+
+
+                </p>
+                <p class="text-center mt-2 text-gray-500"> Opposite Sargodha Arts Council Babar Road</p>
+                <p class="text-center mt-4 text-gray-500">Ph: (048) 3725500</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="max-w-[90%] mx-auto">
+        <p class="font-light text-center text-3xl "><span class="font-bold font-serif">Salt'n Pepper </span>Village
+            Franchise</p>
+
+        <div
+            class="city max-w-[90%] mx-auto flex flex-col-reverse md:flex-col-reverse lg:flex-row sm:items-center  gap-3 my-16 text-left sm:text-center lg:text-left md:items-center">
+
+            <img class="m-3 w-[100%]  md:w-[70%] sm:w-[80%] lg:w-[48%] xl:w-[53%] " src="assets/last.webp" alt="">
+            <div class="info flex flex-col lg:text-left md:text-center sm:text-center text-center gap-4 ">
+                <p class="font-light text-gray-500 text-xl tracking-[5px] !important">Bahawalpur
+                </p>
+                <p class="font-light  text-3xl "><span class="font-bold font-serif">Salt'n Pepper </span>Village</p>
+
+
+                <p class="text-gray-400 flex  justify-center mt-3 gap-1 ">
+                    <img class="w-5" src="location-svgrepo-com.svg" alt="">
+                    Opposite Sargodha Arts Council Babar Road
+                </p>
+                <p class="text-gray-400 flex  justify-center mt-3 gap-1 ">
+                    <img class="w-5" src="phone-calling-svgrepo-com.svg" alt="">
+                    Ph: 048-3725500
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="w-full mx-auto bg-[url('assets/bg-img.webp')] object-cover bg-no-repeat shadow-[0_-0.5px_0_#D1D5DB]  py-10 ">
+        <div class="footer-items max-w-[80%] mx-auto mt-10 flex flex-wrap justify-between ">
+            <div
+                class="about lg:w-[25%] md:w-[30%] sm:w-[40%] w-full lg:block md:block sm:block flex justify-center items-center flex-col ">
+                <img class="w-[8rem]" src="assets/logo.webp" alt="">
+                <p class="mt-4 lg:text-left md:text-left sm:text-left text-center">The Salt’n Pepper Restaurants are an
+                    example of gracious dinning, outstanding service,
+                    extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning
+                    destinations in Lahore. From family occasions to business dinner and moments of the heart, this
+                    place is where unforgettable memories are made.</p>
+
+                <p class="mt-6 align-baseline">Terms & conditions Privacy policy</p>
+            </div>
+
+            <div class="list lg:w-[23%] md:w-[30%] sm:w-[40%] w-full mt-3">
+
+                <ul>
+                    <li class="font-bold font-serif mt-0 flex justify-between">
+                        Site Links
+                        <i id="footer-btn" class="fa-solid fa-plus sm:hidden md:hidden lg:hidden flex cursor-pointer"
+                            style="color: white;"></i>
+                    </li>
+                    <div id="hidden-list" class="hidden md:block sm:block lg:block">
+                        <li class="my-3">Home</li>
+                        <li class="my-3">About Us</li>
+                        <li class="my-3">Publications</li>
+                        <li class="my-3">Get a Franchise</li>
+                        <li class="my-3">Feedback</li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="contacts lg:w-[23%] md:w-[30%] sm:w-[40%] w-full sm:mt-4">
+                <ul>
+                    <li class="font-bold font-serif lg:mt-0 md:mt-0 sm:mt-0 mt-3 flex justify-between ">
+                        Contact Us
+                        <i id="footer-btnTwo" class="fa-solid fa-plus sm:hidden md:hidden lg:hidden flex cursor-pointer"
+                            style="color: white;"></i>
+                    </li>
+                    <div id="hidden-listTwo" class="hidden md:block sm:block lg:block">
+                        <li class="mt-3 font-bold">Head office Address</li>
+                        <li class="mt-3">Foodconsults (Pvt) Ltd
+                            23-Usman Block, New GardenTown, Lahore, Pakistan</li>
+                        <li class="mt-3 font-bold">Head office number</li>
+                        <li class="mt-3">+92 42 358 509 31</li>
+                        <li class="mt-3">+92 42 358 509 30</li class="mt-3">
+                        <li class="mt-3 font-bold">Email Address</li>
+                        <li class="mt-3">snpfood@brain.net.pk</li>
+                        <li class="mt-3 font-bold">Free delivery number</li>
+                        <li class="mt-3">+92 42 111 100 678</li>
+                        <li class="mt-3">+92 03 111 444 610</li>
+                    </div>
+
+
+                </ul>
+
+            </div>
+            <div
+                class="social-icons lg:w-[23%] md:w-[30%] sm:w-[40%] w-full sm:mt-4 lg:block xl:block md:block sm:block flex justify-center items-center flex-col">
+                <p class="font-bold font-serif xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-5">Follow Us</p>
+                <div class="social-icons">
+
+
+                    <i class="fa-brands fa-facebook  text-3xl mx-2 mt-3 rounded-[50%] cursor-pointer"></i>
+                    <i class="fa-brands fa-instagram  text-3xl mx-2 mt-3 rounded-[50%] cursor-pointer"></i>
+                    <i class="fa-brands fa-x-twitter  text-3xl mx-2 mt-3 rounded-[50%] cursor-pointer"></i>
+                </div>
+                <img class="my-4" src="assets/appstore.webp" alt="">
+                <img class="my-4" src="assets/play.webp" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <footer class="bg-black w-full text-white shadow-[0_-0.5px_0_#D1D5DB] ">
+        <div class="max-w-[80%] h-[50px]  mx-auto font-serif font-bold flex justify-between items-center flex-wrap">
+            <p class="cursor-pointer">&copy;2025</p>
+            <p class="cursor-pointer">powered By Abdul Salam</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
